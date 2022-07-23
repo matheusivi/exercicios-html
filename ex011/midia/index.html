@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1> Reproduzindo Áudio.</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="two-moons.mp3" controls  autoplay></audio>
+    <!--MP3 WAV OGG são os que são compativeis.-->
+    
+    <p>Há outra forma também de ponhar áudio.</p>
+    <audio src="two-moons.mp3" type="audio/mpeg">
+    <audio src="two-moons.ogg" type="audio/ogg">
+    <audio src="two-moons.wav" type="audio/wav"> <!--Esse é mais pesado evite usar, a não ser que o navegador da pessoa não seja compatível com os outros formatos de audíos.-->
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="two-moons.mp3"> Clique aqui para baixar o arquivo MP3.</a></p>
+
+    <h1> Reproduzindo áudio, testanto eu propriamente dito.</h1>
+    <p>Vamos apredner a reproduzir áudios em HTML5, existem duas formas categóricas que precisamos fazer.</p>
+    <a href="two-moons.mp3" controls autoplay></a>
+
+    <p>A segunda forma é feita da seguinte maneira, observe o exemplo.</p>
+    <audio src="two-moons.mp3" type="audio/mpeg">
+    <audio src="two-moons.ogg" type="audio/ogg" >
+     <audio src="two-moons.wav" type="audio/WAV"></audio>   
+ </audio>
+
+    </audio> 
+</body>
+</html>
