@@ -79,6 +79,10 @@ main  a{
     color: var(--cor04);
 }
 
+main .bugdroid{
+    display: block;
+    margin: auto;
+}
 article{
     background-color: white;
 }
