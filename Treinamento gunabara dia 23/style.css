@@ -44,6 +44,7 @@ header > p {
     max-width: 40%;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
@@ -66,16 +67,24 @@ nav :hover{
 
 main{
     background-color: white;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     padding: 20px;
     max-width: 1300px;
     min-width: 300px;
 }
+
+main  a{
+    text-decoration: none;
+    color: var(--cor04);
+}
+
 article{
     background-color: white;
 }
 
 article > h1{
+    background-image: linear-gradient(to right, var(--cor01), white);
     font-size: 2em;
     color: var(--cor03);
     font-family: var(--font-robo);
@@ -84,6 +93,7 @@ article > h1{
 }
 
 article > h2{
+    background-image: linear-gradient(to right, var(--cor01), white);
     color: var(--cor03);
     font-family: var(--font-robo);
     font-size: 1.5em;
@@ -103,9 +113,29 @@ aside{
 }
 
 aside  h3{
+    color: white;
     font-family: var(--font-padrao);
     background-color: var(--cor03);
-    padding: 10px 0px;
+    padding: 10px 10px;
     border-radius: 10px 10px 0px 0px;
 }
 
+aside p{
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-indent: 30px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    background-color: var(--cor05);
+    color: white;
+    font-family: var(--font-padrao);
+    text-align: center;
+    max-width: 1341px;
+    margin: auto;
+}
