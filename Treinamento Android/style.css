@@ -1,0 +1,6 @@
+.bicicleta{
+    height: 2000px;
+    background-color: lightblue;
+    background-image: url("05-css-propriedades/05-css-propriedades/0503-background/web/img/bicicleta.jpg");
+    background-repeat: no-repeat;
+}

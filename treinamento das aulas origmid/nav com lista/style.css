@@ -13,3 +13,24 @@ a{
     display: block;
     color: #000;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+@media screen {
+    
+}
