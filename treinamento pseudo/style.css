@@ -1,20 +1,48 @@
-.lista-1 li {
-    background-color:lightyellow;
+h1{
+    position: relative;
 }
 
-.lista-1 li:last-child{
-    background-color:lightblue;
-}
-
-.lista-1 li:first-child{
-    background-color: lightcoral;
-}
-
-.lista-2 li:nth-child(2n){
-    background-color: brown;
-}
-
-.lista-3 li:not(:first-child, :last-child, .quinto){
+h1::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 4px;
     background-color: #caf;
+    position: absolute;
+    top: 20px;
+    z-index: -1; 
+}
 
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(#caf, #fff);
+    border: 2px solid #caf;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+p {
+    width: 600px;  
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 2rem;
 }
