@@ -1,0 +1,25 @@
+a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background: #caf;
+    color: #217;
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color: #adf;
+    color: #147;
+}
+
+a:focus {
+    background-color: #caf;
+    color: #371;
+}
+
+a:active{
+    background-color: #ffa;
+    color: #761;
+}
+
