@@ -92,17 +92,18 @@
 
                 <form action="">
                     <label for="name">Nome Completo</label> 
-                    <input type="text" name="name">
+                    <input type="text" name="name" id="txtName">
 
                     <label for="email">E-mail</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" id="txtEmail">
 
                     <label for="level">Level</label>
-                    <input type="text" name="level">
+                    <input type="text" name="level" id="txtLevel">
 
               <label for="character">Personagem</label>
-              <textarea name="character" cols="30" rows="10"></textarea>
-              <button>Me inscrever</button>
+              <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
+              <button id="btnSubscribe">Me inscrever</button>
+             
             </form>
     </main>
 
@@ -135,5 +136,7 @@
         audio.volume = 0.2;
       }
     </script>
+
+<script type="module" src="js.js"></script>
 </body>
 </html>

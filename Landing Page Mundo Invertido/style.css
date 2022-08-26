@@ -18,7 +18,7 @@
   --header-background-color: #e3e3e3;
   --highlight-color: #000000;
   --featured-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("fotos/images/characters/kids-on-the-bike.svg");
+  --character-top-image-src: url("fotos/images/characters/kids-on-the-bike.png");
   --character-top-image-color: #ffffff;
   --character-bottom-image-src: url("fotos/images/characters/inverted-world-monster.svg");
   --character-bottom-image-color: #e5e5e5;
@@ -35,7 +35,7 @@
   --header-background-color: #220f0f;
   --highlight-color: #ffffff;
   --featured-font-family: "Rubik Glitch", sans-serif;
-  --character-bottom-image-src: url("fotos/images/characters/kids-on-the-bike.svg");
+  --character-bottom-image-src: url("fotos/images/characters/kids-on-the-bike.png");
   --character-bottom-image-color: rgba(255, 255, 255, 0.1);
   --character-top-image-src: url("fotos/images/characters/inverted-world-monster.svg");
   --character-top-image-color: #000;
@@ -183,7 +183,7 @@ header::before{
     position: relative;
 
     mask: var(--character-bottom-image-src) bottom/contain no-repeat;
-    --webkit-mask: var(--character-top-image-src) nottom / 100% no-repeat;
+    --webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
   }
 
   main{
