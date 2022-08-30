@@ -18,13 +18,14 @@
   --header-background-color: #e3e3e3;
   --highlight-color: #000000;
   --featured-font-family: "Archivo", sans-serif;
-  --character-top-image-src: url("fotos/images/characters/kids-on-the-bike.png");
-  --character-top-image-color: #ffffff;
+  --character-top-image-src: url("fotos/images/characters/kids-on-the-bike.svg");
+  --character-top-image-color: #e0ddddd5;
   --character-bottom-image-src: url("fotos/images/characters/inverted-world-monster.svg");
   --character-bottom-image-color: #e5e5e5;
   --background-lamp-image: url("fotos/images/backgrounds/lamps.png");
   --footer-background-color: #b5bbbf;
 }
+
 .dark-theme {
   --page-background: linear-gradient(
     180deg,
@@ -35,10 +36,10 @@
   --header-background-color: #220f0f;
   --highlight-color: #ffffff;
   --featured-font-family: "Rubik Glitch", sans-serif;
-  --character-bottom-image-src: url("fotos/images/characters/kids-on-the-bike.png");
-  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
+  --character-bottom-image-src: url("fotos/images/characters/kids-on-the-bike.svg");
+  --character-bottom-image-color: rgba(76, 74, 74, 0.1);
   --character-top-image-src: url("fotos/images/characters/inverted-world-monster.svg");
-  --character-top-image-color: #000;
+  --character-top-image-color: rgb(50, 50, 50);
   --background-lamp-image: url("fotos/images/backgrounds/lamps-inverted.png");
   --footer-background-color: #000;
 }
@@ -169,10 +170,11 @@ header::before{
 
   #top-characters{
     height: 100%;
-    background-color:var(--cha);
+    background-color: var(--character-top-image-color);
     bottom: -3px;
-    mask: url(fotos/images/characters/kids-on-the-bike.png) bottom / 100% no-repeat;
-    --webkit-mask: url(fotos/images/characters/kids-on-the-bike.png) bottom / 100% no-repeat;
+    
+    mask: var(--character-top-image-src) bottom / contain no-repeat;
+    -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
   }
 
   #bottom-characters{
@@ -183,7 +185,7 @@ header::before{
     position: relative;
 
     mask: var(--character-bottom-image-src) bottom/contain no-repeat;
-    --webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
+    -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
   }
 
   main{
