@@ -1,0 +1,15 @@
+.bicicleta{
+    height: 600px;
+    background-color: lightblue;
+    background-image: url("fotos/bicicleta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+h1{
+    margin: auto;
+    background-color: white;
+}
+
