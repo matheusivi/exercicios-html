@@ -25,8 +25,38 @@ a:active{
     color: #761;
 }
 
-a:visited{
+/*a:visited{
     background-color: #fda;
     color: #731;
-}
+}*/
 /* O visited é mais poderoso que os outros, assim, ficando sobre os outros códigos anteriores do hover. */
+
+
+
+.lista-1{
+    background: #ffa;
+}
+
+.lista-1 li:first-child{
+    background-color: #caf;
+}
+
+.lista-1 li:last-child{
+    background-color: #cfa;
+}
+
+.lista-1 li:nth-child(3){
+    background-color: #cfa;
+}
+
+.lista-2 li:nth-child(3n){
+    background: #caf;
+}
+
+.lista-3 li:not(:first-child, :last-child) {
+    background-color: #caf;
+}
+
+h2:not(.contato){
+    text-decoration: underline;
+}
