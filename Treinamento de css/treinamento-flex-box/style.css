@@ -1,19 +1,16 @@
-h1{
-    border: 2px solid #ccc;
-    padding: 20px 20px 200px 20px;
+.flex{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content:center;
+     align-content: center;
+     height: 100vh;
 }
 
-p{
-    background-color: #e7e7e7;
-    border: 1px solid black;
-    padding: 20px;
-    font-size: 20px;
-    margin: 0px; 
-}
+h2{
+ background-color: #e7e7e7;
+ border: 1px solid #d7d7d7;
+ padding: 20px;
+ margin: 0px;
 
-.fixo{
-    position: fixed;
-    right: 20px;
-    left: 20px;
-    bottom: 20px;
 }
