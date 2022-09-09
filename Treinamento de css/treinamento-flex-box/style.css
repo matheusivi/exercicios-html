@@ -1,15 +1,19 @@
-div{
-    border: 2px solid #ccc;
-    margin-top: 40px;
-    padding: 20px 20px 40px 20px;
-    position: relative;
-}
-
-span{
-    background-color: #e7e7e7;
-    border: 2px solid #ccc;
+h1{
+    margin: 0px;
     padding: 10px;
-    position: absolute;
-    top: 0px;
+    background-color: lightblue;
 }
 
+.index1{
+    position: relative;
+    background-color: greenyellow;
+    top: 20px;
+    z-index: 1;
+}
+
+.index2{
+    position: absolute;
+    background-color: lightcoral;
+    top: 60px;
+    z-index: 2;
+}
