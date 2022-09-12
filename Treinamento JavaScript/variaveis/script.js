@@ -1,38 +1,38 @@
-  var nome = ' Matheus'
-  var idade = 28;
-  var possuiFaculdade = true; 
+// variavel responsavel para gravar na memória.
 
-
-
-  console.log(nome, idade, possuiFaculdade);
-
-   var preco= 25;
-   var totalComprado = 5;
-   var totalPreco = totalComprado * preco;
-
-   console.log(totalPreco);
-
-   var sobrenome = 'Rafael', 
-    cidade = 'Rio';
-
-   console.log(sobrenome, cidade);
-
-var semDefinir
-console.log(semDefinir)
-
-//console.log(aindaNaoDefine);
-
-// var time = 'vasco'
-//  time = 'flamego'
-// console.log(time)
-
-var nome = 'matheus'
+var nome = 'Matheus'
 console.log(nome)
 
-var idade = 29;
-console.log(idade)
+var idade = 23;
+console.log(idade);
 
-var comida = 'pizza';
-console.log(comida)
+var possuiFaculdade = true;
 
-var comidaFavorita;
+console.log(nome, idade, possuiFaculdade);
+
+var preco = 25;
+var totalComprado = 5;
+var totalPreco = totalComprado * preco;
+
+console.log(totalPreco);
+
+var sobrenome = 'Oliveira', cidade = 'MS';
+
+console.log(sobrenome, cidade);
+
+var semDefeinir
+console.log(semDefeinir);
+
+var comida;
+console.log(comida);
+comida = 'pizza';
+console.log(comida);
+
+/*var time = 'vasco'
+time = 'flamengo'
+console.log(time)*/
+
+let time = 'vasco'
+    time = 'flamengo'
+
+console.log(time)
