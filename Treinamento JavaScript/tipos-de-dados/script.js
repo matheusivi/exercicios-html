@@ -1,52 +1,50 @@
-var nome = 'Matheus'
+var nome = 'matheus';
 var idade = 29;
-var time = null;
-var simbolo = Symbol();
-console.log(typeof simbolo)
+console.log(typeof nome);
 
-var nome ='Matheus'
-var sobrenome='Oliveira'
+var noem = 'matheus';
+var sobrenome = 'oliveira';
 var nomeCompleto = nome + ' ' + sobrenome;
 
-console.log(nomeCompleto)
+console.log(nomeCompleto);
 
 var gols = 1000;
 var frase = 'Romário fez ' + gols + ' gols';
-console.log(frase)
+console.log(typeof frase);
 
 var ano = 2018;
 var mes = 8;
 console.log(ano + mes);
 
-var melhor = 'ótimo'
-var frase1 = "Esse é o " + melhor + " jogo"
-console.log(frase1)
-
-var melhor = 'ótimo'
-var frase1 = "Esse é o  \"melhor\"  jogo"
-console.log(frase1)
+var melhor = 'teste'
+var frase1 = "Esse é o \"melhor\" jogo";
+console.log(frase1);
 
 var gols = 1000;
-var frase2 = `Romário fez ${gols *3} gols`;
-console.log(frase2)
+var frase1 = 'Romário fez ' + gols + ' gols';
+var frase2 = `Romário fez ${gols * 3} gols`;
 
-var pais = 'Jerusalém'
-console.log(typeof pais)
+console.log(frase2);
 
-var idade ='29';
-console.log(typeof idade)
+var comida = 'Pizza'
+console.log(typeof comida);
+
+var idade = '29';
+console.log(typeof idade);
 
 var idade = 29;
-console.log(idade);
+console.log(typeof idade);
 
-var nome ='matheus'
-var sobrenome = 'Oliveira'
-var nomeSobrenome = `${nome} ${sobrenome}`
-console.log(nomeSobrenome)
+var nome = 'matheus'
+var sobrenome = 'oliveira'
+var nomeCompleto = nome + ' ' + sobrenome;
+console.log(nomeCompleto);
 
-var frase = 'it\'s time'
-console.log(frase)
+var ingles = "It's time"
+console.log(ingles);
 
-console.log(typeof nome);
+var nomeCompleto = `${nome} ${sobrenome}`
+console.log(nomeCompleto)
+
 
 
