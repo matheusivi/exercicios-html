@@ -106,3 +106,46 @@ switch (corFavorita){
     default:
             console.log('Feche os olhos.')
 }
+
+var minhaIdade = 29;
+var idadePrimo = 29;
+
+if(minhaIdade > idadePrimo) {
+   console.log('é maior');
+} else if( minhaIdade===idadePrimo){
+   console.log('é igual')
+} else {
+   console.log('menor que a minha')
+}
+
+var expressao = (5 -2) && (5 - ' ') && (5 - 2);
+console.log(expressao)
+
+var nome = 'matheus';
+var idade = 29;
+var possuiDoutorado = false;
+var empregoFuturo;
+var dinheiroNaConta = 0;
+
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta)
+
+var brasil = 207;
+var china = 1340;
+
+if(brasil > china) {
+   console.log('Brasil tem mais habitantes')
+} else {
+   console.log('Brasil tem menos habitantes')
+}
+
+if(('Gato' === 'gato') && (5 > 2)){
+console.log('Verdadeiro');
+}else {
+   console.log('falso');
+}
+
+if(('Gato' === 'gato') || (5 > 2)) {
+   console.log('Gato' && 'Cão');
+} else {
+   console.log('Falso');
+}
