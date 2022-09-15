@@ -1,46 +1,53 @@
-var possuiGraduacao = true;
+ var possuiGraduacao = true;
 
-if(possuiGraduacao) {
-    console.log('é verdadeiro');
+ if(possuiGraduacao) {
+    console.log('É verdadeiro');
     var x = 10;
-} else {
-    console.log('é falso')
-}
+ } else {
+    console.log('É falso')
+ }
 
-console.log(x)
+ console.log(x);
 
-// Se o if não for verdadeiro, ele testa o else if;
+ //Se o if não for verdadeiro, ele testa o else if
 
-var possuiGraduacao = true;
-var possuiDoutorado = false;
+ var possuiGraduacao = false;
+ var possuiDoutorado = true;
 
-if(possuiDoutorado) {
-    console.log('Possui graduação e doutorado');
-} else if(possuiGraduacao){
-    console.log('Possui graduação, mas não possui doutorado');  
-} else{
-    console.log('Não possui graduação');
-}
+ if(possuiGraduacao) {
+    console.log('É verdadeiro')
+ } else if(possuiDoutorado){
+    console.log('Possui Doutorado')
+ } else {
+    console.log('Não possui nada')
+ }
 
-//Truthy e Falsy
+ var nome = '' 
 
-var nome = ''
-
-if(nome){
-    console.log(nome)
-} else{
-    console.log('nome não é existe');
-}
-
-var nome = '10kg' / 10;
-
-if(nome){
+ if(nome){
     console.log(nome);
-} else {
-    console.log('nome não existe')
-}
+ } else{
+    console.log('Nome não existe')
+ }
 
-if(!possuiGraduacao) {
-    console.log(possuiGraduacao);
-    console.log('Não possui graduação');
-}
+ // O operador !, nega uma operação booleana. Ou seja, !true é igual a false.
+
+ // Operadores de comparação, vão sempre retornar um valor booleano
+ 
+ 10 > 5;
+ 10 > 10;
+ 10 <= 10;
+
+
+ // O == faz uma comparação não tão estrita e o === faz uma comparação estrita, ou seja, o tipo de dado deve ser o mesmo quando usamos ===
+
+var x = 10;
+
+console.log(x == 10)
+
+var y = '10'
+
+console.log( y === 10 )
+
+var z = 11
+console.log(x !== 11)
