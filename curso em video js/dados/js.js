@@ -1,4 +1,4 @@
-var n1 = Number(window.prompt('Digite um número: '))
+/*var n1 = Number(window.prompt('Digite um número: '))
 var n2 = Number(window.prompt('Digite outro número: '))
 var s = n1 + n2
 window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
@@ -22,4 +22,9 @@ window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
 // s.toLowerCase() tudo para 'minúscula'
 
 var nome = window.prompt('Qual é seu nome?')
-document.write(`Seu nome tem ${nome.lenght} letras.`)
+document.write(`Olá ${nome}!, seu nome tem ${nome.length} letras. </br>`)
+document.write(`Seu nome em maiúsculos é ${nome.toUpperCase
+()}. </br>`)
+document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)*/
+
+ 
