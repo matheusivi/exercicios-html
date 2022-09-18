@@ -38,3 +38,10 @@ console.log(corFavorita(''));
 addEventListener('click', function(){
     console.log('oi')
 })
+
+function imc2(peso, altura) {
+    const imc = peso / (altura ** 2);
+    console.log(imc);
+}
+
+imc2(80, 1.80);
