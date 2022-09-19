@@ -28,4 +28,27 @@ incremento
 var x = 5
 x = x + 1;   n += 1; ou x++
 x = x - 1;   n -= 1; ou x--
+
+
+5 > 2 true
+7 < 4 false
+8 >= 8 true 
+9 <= 7 false
+5 == 5 true  
+4 != 4 false
+
+
+! negação
+
+&& conjunção (e)
+
+|| disjunção (ou)
+
+var a = 5
+var b = 8
+true && false false
+
+ternário
+
+test? true : false;
 */
