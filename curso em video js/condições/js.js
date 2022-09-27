@@ -14,7 +14,7 @@ if (país == 'Brasil') {
 }*/
 
 
-function calcular() {
+/*function calcular() {
    var txtv = window.document.querySelector('input#txtvel');
    var res = window.document.querySelector('div#res');
    var vel = Number(txtv.value);
@@ -22,5 +22,6 @@ function calcular() {
    if (vel > 60){
     res.innerHTML += `Você está <strong>MULTADO</strong> por excesso de velocidade`
    }
-   res.innerHTML += `<p>Dirika sempre com cinto de segurança!</p> `
-}
+   res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p> `
+}*/
+

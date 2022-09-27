@@ -1,30 +1,24 @@
-/*var n1 = Number(window.prompt('Digite um número: '))
-var n2 = Number(window.prompt('Digite outro número: '))
+/* var nome = window.prompt('Qual é seu nome?')
+
+window.alert(' E um grande prazer em te conhecer,' + nome + '!')*/
+
+/*var n1 = Number.parseFloat(window.prompt('Digite um número : '))
+var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+var s = n1 + n2 
+
+
+window.alert(' A soma dos valores é' + s)
+
+Number.parseInt(n) // números inteiros.
+Number.parseFloat(n)// números real, com virgula. */
+
+/*var n1 = Number(window.prompt('Digite um número'))
+var n2 = Number(window.prompt('Digite outro número'))
 var s = n1 + n2
-window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
-// number + number para adição
-// string + string para concatenação
+window.alert(`A soma entre ${n1} e ${n2} é igual a $`)
 
-//string > Number
+String(n);
+n.toString();
+*/
 
-//number.parseInt(n) > uma conversão de um número para o número inteiro.
-// number.parseFloat(n) > converter para real.
-
-//numero > string
-
-//String(n)
-// n.toString()
-
-//Formatar para String
-
-//s.length quantos caracteres a string tem
-// s.toUpperCase() tudo para 'maiúscula'
-// s.toLowerCase() tudo para 'minúscula'
-
-var nome = window.prompt('Qual é seu nome?')
-document.write(`Olá ${nome}!, seu nome tem ${nome.length} letras. </br>`)
-document.write(`Seu nome em maiúsculos é ${nome.toUpperCase
-()}. </br>`)
-document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)*/
-
- 
+`Estou aprendendo ${s}`
