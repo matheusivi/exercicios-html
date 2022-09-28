@@ -51,4 +51,13 @@ true && false false
 ternário
 
 test? true : false;
+
+var a = 4 + 2
+var b = a % 6
+var c = 7 * b ** 5
+var d = 110 - a / 8
+var e = 4 * 7 / d 
+var f = b % e + 8 / e
+
+
 */
