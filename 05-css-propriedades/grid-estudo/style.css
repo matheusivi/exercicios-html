@@ -1,25 +1,41 @@
-.grid{
-    display: grid;
-    height: 800px;
-    grid-template-columns: auto auto;
-    gap: 20px; 
-    justify-content: center;
-    align-content: end;
-}
 
 
 
 
 
-h1 {
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+h1,p{
+    margin: 0px;
 }
 
-h2{
-    margin-top: 0px;
+h1{
+    font-size: 48px;
+    line-height: 1;
+}
+
+p, span{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 .comprar{
@@ -28,12 +44,12 @@ h2{
    padding: 10px 20px;
    text-decoration: none;
    border-radius: 4px; 
+   font-size: 20px;
 }
 
-.item {
-    background-color: #f7f7f7;
-    border: 1px solid #e7e7e7;
-    padding: 20px;
+.preco{
+    background-color: #ddd;
+    padding: 5px 10px;
     border-radius: 4px;
-    display: grid;
 }
+
