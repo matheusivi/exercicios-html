@@ -1,19 +1,21 @@
-h1{
-    border: 2px solid #ccc;
-    padding: 20px 20px 600px 20px; 
+body{
+    height: 1200px;
 }
 
-p{
+div{
+    border: 2px solid #ccc;
+    margin: 40px;
+    padding: 20px 20px 200px 20px; 
+    position: relative;
+}
+
+span{
     background-color: #e7e7e7;
     border: 1px solid black;
     padding: 20px;
     font-size: 20px;
-    margin: 0px;
-}
-
-.fixo{
-    position: fixed;
-    right: 20px;
-    left: 20px;
+    position: absolute;
     bottom: 20px;
 }
+
+
