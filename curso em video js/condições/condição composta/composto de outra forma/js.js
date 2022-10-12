@@ -11,15 +11,13 @@ function calcular(){
     res.innerHTML += `<p>Dirija sempre com cinto de segurança</p>`
 }*/
 
-
 function calcular(){
-    var txvel = window.document.getElementById('tn1')
+    var nvel = window.document.getElementById('tn1')
     var res = window.document.getElementById('res')
-    var t1 = Number(txvel.value)
-    res.innerHTML = `<p>A sua velocidade é <strong>${t1}Km/h</strong></p>`
-    if ( t1 > 70){
-        res.innerHTML = ('<p>Você está <strong>MULTADO</strong> por excesso de velocidade.</p>')
-
-    }
-    res.innerHTML += `<p>Dirija com cuidado, use sinto de segurança.</p>`
+    var vel = Number(nvel.value)
+    res.innerHTML = `<p>A sua velocidade está <strong>${vel}</strong> Km/h</p>`
+    if (vel > 60){
+       res.innerHTML = 'Você está MULTADO! Por excesso de velocidade!'
+    } 
+    res.innerHTML += '<p>Dirija com Cuidado, use sempre o cinto de segurança.</p>'
 }
