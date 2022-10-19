@@ -1,16 +1,4 @@
 body{
     background-color: black;
-    color: black;
-}
-
-div{
-    background-color: white;
-     height: 250px;
-     width: 600px;
-     text-align: center;
-     padding: 80px;
-}
-
-#dados{
-    border: 1px solid ;
+    color: white;
 }
