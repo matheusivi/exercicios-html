@@ -8,35 +8,29 @@
     6 = sábado
 */
 
-var agora = new Date()
-var diaSem = agora.getDay()
+let dia = new Date()
+let diaSem = dia.getDay()
 
-switch (diaSem) {
+switch (diaSem){
     case 0 :
-    console.log('Domingo')
-    break
-
-    case 1 : 
-    console.log('Segunda-feira')
-    break
-
-    case 2 :
-    console.log('Terça-feira')
-    break
-
+        console.log('Domingo')
+        break
+    case 1 :
+        console.log('Segunda')
+        break
+    case 2 : 
+        console.log('Terça')
+        break
     case 3 : 
-    console.log('Quarta-feira')
-    break
-
+        console.log('Quarta')
+        break
     case 4 :
-    console.log('Quinta-feira')
-    break
-
+        console.log('Quinta')
+        break
     case 5 :
-    console.log('Sexta-feira')
-    break
-
+        console.log('Sexta')
+        break
     case 6 :
-    console.log('Sábado')
-    break
-} 
+        console.log('Sábado')
+        break
+}
