@@ -52,21 +52,25 @@ console.log(+possuiFaculdade); // 1
 var total = 10 + 5 * 2 / 2 + 20;
 console.log(total);
 
-var idade = 'tenho 29 anos'
+var idade = 'tenho 29 anos' // ou var expressao1 = 'teste' / 2 = NaN
 var tempo = '10 mm'
 
 console.log(+idade)
 console.log(-tempo)
 
-var numero = '200';
+var numero = '200'; // ou var soma = +'200' + 50
 var valor = 50;
 console.log(+numero + valor);
 
 let incrementar = 5;
 console.log(incrementar++);
 console.log(incrementar);
+// ou var x = 5 
+// ++x
+// console.log(x)
 
-var numero = '80' / 2;
+
+var numero = +'80' / 2;
 var unidade = 'kg';
 var peso = numero + unidade;
 
