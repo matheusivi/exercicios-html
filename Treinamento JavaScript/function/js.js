@@ -40,5 +40,52 @@ addEventListener('click', function(){
     console.log('oi')
 })
 
-*/
 
+// Quando não definimos o return, ela irá retornar undefined.O código interno da função é executado normalmente, independente de existir valor de return ou não.
+function imc2(peso, altura){
+    const imc = peso / (altura ** 2);
+    console.log(imc)
+}
+
+imc2(20, 1.8) // undefined
+
+
+// Uma função pode retornar qualquer tipo de dado e até outras funções.
+
+function terceiraIdade(idade){
+    if(typeof idade !== 'number'){
+        return 'Informe a sua idade'
+    }else if(idade >= 60){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(terceiraIdade(60))
+
+
+function faltaVisitar(paisesVisitados){
+    var totalPaises = 193
+    return `Falta visitar ${totalPaises - paisesVisitados} países`
+}
+
+console.log(faltaVisitar(20))
+
+
+//Escopo lexico
+
+var profissao = 'Designer';
+
+function dados(){
+    var nome = 'André';
+    var idade = 28;
+    function outrosDados(){
+        var endereco = 'Rio de Janeiro';
+        var idade = 29;
+        return `${nome}, ${idade}, ${endereco}, ${profissao}`
+    }
+    return outrosDados();
+}
+
+console.log(dados())
+*/
