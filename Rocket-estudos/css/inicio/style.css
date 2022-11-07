@@ -1,18 +1,5 @@
-*{
-    margin: 0;
+h1{
+    border: 1px solid red;
+    margin: 200px;
+    padding: 60px;
 }
-
-#container{
-    width: 200px;
-}
-
-.m-4{
-    margin: 40px;
-}
-
-h1, h2{
-    color: blue;
-    font-size: 60px;
-    background: gray;
-}
-
