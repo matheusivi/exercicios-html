@@ -1,19 +1,21 @@
-h1{
+.flex{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+body{
     margin: 0px;
-    padding: 10px;
-    background-color: lightblue;
 }
 
-.index1{
-    position: relative;
-    background-color: greenyellow;
-    top: 20px;
-    z-index: 1;
-}
 
-.index2{
-    position: absolute;
-    background-color: lightcoral;
-    top: 60px;
-    z-index: 2;
+h2{
+ background-color: #e7e7e7;
+ border: 1px solid #d7d7d7;
+ padding: 20px;
+ margin: 0px;
 }
