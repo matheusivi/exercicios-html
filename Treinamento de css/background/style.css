@@ -14,3 +14,21 @@ h1{
     color: white;
 
 }
+
+.patter{
+    height: 300px;
+    background-color: lightcoral;
+    background-image: url("./fotos/pattern.svg");
+    background-repeat: repeat;
+   /* background-size: 100px;*/
+}
+
+.linear{
+    height: 200px;
+    background-image: linear-gradient(to left, lightblue, lightcoral);
+}
+
+.radial{
+    height: 200px;
+    background-image: radial-gradient(circle, blue, red, green);
+}
