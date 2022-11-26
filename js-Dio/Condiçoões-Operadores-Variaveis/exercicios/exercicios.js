@@ -53,3 +53,4 @@ if ( formaDePagamento === 1 ){
 }else {
     console.log( precoEtiqueta + (precoEtiqueta * 0.1 ))
 }
+
