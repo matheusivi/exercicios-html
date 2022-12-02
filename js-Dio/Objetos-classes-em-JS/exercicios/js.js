@@ -24,7 +24,7 @@ console.log(uno.calcularGastoDePercurso(70, 5))
 
 const palio = new Carro('Fiat', 'Preto', 1/10)
 console.log(palio.calcularGastoDePercurso(70,5))
-*/
+
 
 
 class Pessoa{
@@ -68,5 +68,40 @@ console.log(renan.classificar())
 
 const matheus = new Pessoa('matheus', 103, 1.85)
 console.log(matheus.classificar())
+*/
 
 
+class pessoa {
+    nome;
+    idade;
+    altura;
+
+    constructor(nome, idade, altura){
+        this.nome= nome;
+        this.idade= idade;
+        this. altura= altura;
+    }
+
+    Imc(){
+        return this.peso / (this.altura * this.altura)
+    }
+
+    informacao(){
+        const informacao = this.Imc;
+            if(informacao < 18.5 ){
+                return ('Abaixo do peso')
+            }else if(informacao >= 18.5 && informacao < 25){
+                return ('Peso normal')
+            }else if ( informacao >= 25 && informacao < 30){
+                return ('Acima do peso')
+            }else if(informacao >= 30 && informacao < 40){
+                return ('Obesidade')
+            }else {
+                return ('Obesidade grave')
+            }
+        
+    }
+}
+
+const matheus = new pessoa('matheus', 29, 1.87)
+console.log(matheus.informacao())
