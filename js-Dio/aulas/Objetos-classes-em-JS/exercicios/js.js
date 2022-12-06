@@ -70,38 +70,35 @@ const matheus = new Pessoa('matheus', 103, 1.85)
 console.log(matheus.classificar())
 */
 
-
-class pessoa {
+class Pessoa{
     nome;
-    idade;
+    peso;
     altura;
 
-    constructor(nome, idade, altura){
-        this.nome= nome;
-        this.idade= idade;
-        this. altura= altura;
+    constructor(nome, peso, altura){
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
     }
-
     Imc(){
-        return this.peso / (this.altura * this.altura)
-    }
-
+            return this.peso / (this.altura * this.altura) 
+        }
+    
     informacao(){
-        const informacao = this.Imc;
-            if(informacao < 18.5 ){
-                return ('Abaixo do peso')
-            }else if(informacao >= 18.5 && informacao < 25){
-                return ('Peso normal')
-            }else if ( informacao >= 25 && informacao < 30){
-                return ('Acima do peso')
-            }else if(informacao >= 30 && informacao < 40){
-                return ('Obesidade')
-            }else {
-                return ('Obesidade grave')
-            }
-        
+        const informacao = this.Imc()
+        if (informacao < 18.5){
+            return ('Abaixo do peso')
+        }else if ( informacao >= 18.5 && informacao <25 ){
+            return ('Peso normal')
+        }else if(informacao >= 25 && informacao < 30){
+            return ('Acima do peso')
+        }else if(informacao >= 30 && informacao < 40){
+            return ('Obeso')
+        }else {
+            return ('Obesidade Grave')
+        }
     }
 }
 
-const matheus = new pessoa('matheus', 29, 1.87)
+const matheus = new Pessoa ('matheus', 103 , 1.87)
 console.log(matheus.informacao())

@@ -1,3 +1,4 @@
+/*
 class pessoa{
     nome;
     idade;
@@ -31,7 +32,7 @@ vitor.descrever();
 
 const matheus = new pessoa('Matheus', 29)
 console.log(matheus)*/
-
+/*
 function compararPessoas(p1, p2){
     if (p1.idade > p2.idade) {
         console.log(`${p1.nome} é mais velho(a) que ${p2.nome}`)
@@ -46,3 +47,40 @@ const vitor = new pessoa('Vitor', 25);
 const renan = new pessoa('Renan', 30);
 
 compararPessoas(vitor, renan);
+
+
+var obj = {
+    nome: "Matheus",
+    idade: 29,
+    profissão: 'Programador'
+};
+
+console.log(obj);
+console.log(typeof obj)
+
+console.log(obj.nome);
+console.log(obj.idade);
+console.log(obj.profissão);
+
+console.log('O meu nome é ' + obj.nome);
+
+obj.nome = 'João'
+console.log(obj.nome)
+console.log(obj)
+
+obj.graduacao = true;
+console.log(obj)*/
+
+var arr = [5 , 'Matheus', true, {teste: 1 , teste: 2}]; // obj => {}
+
+console.log(arr)
+
+var arr2 = [2, 5, 6, 7, 9];
+
+console.log(arr2[3]);
+console.log(arr2[0]);
+
+arr2[5] = 12;
+console.log(arr2[5])
+arr2 [0] = 'Pedro'
+console.log(arr2)

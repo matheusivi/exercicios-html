@@ -54,3 +54,28 @@ if ( formaDePagamento === 1 ){
     console.log( precoEtiqueta + (precoEtiqueta * 0.1 ))
 }
 
+
+/*
+let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = true;
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+console.log(podeAplicar);
+
+let candidatoRecusado = !podeAplicar
+console.log(candidatoRecusado) 
+
+let pais = 'canada'
+let estado = 'Ba'
+
+switch(pais){
+    case 'brasil':
+        console.log('Sou brasileiro')
+        break
+    case 'canada':
+        console.log('Sou canadense')
+        break
+    default:
+        console.log('Padrão')
+        break
+}*/
+

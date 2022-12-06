@@ -1,0 +1,2 @@
+
+ const funcoes = require('./js')

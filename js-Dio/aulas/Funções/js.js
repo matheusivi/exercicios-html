@@ -33,3 +33,32 @@ function main(){
 main()
 */
 
+
+function primeiroFuncao(){
+
+    console.log('Hello world das funções')
+}
+
+primeiroFuncao();
+
+function dizerNome(nome){
+    console.log('O nome é:' + nome)
+}
+
+dizerNome('Matheus');
+
+var nomeDoBancoDeDados = 'João'
+dizerNome(nomeDoBancoDeDados);
+
+function somar(a, b){
+    var somar = a + b
+    return somar 
+}
+
+var somarum = somar( 2 , 5)
+console.log(somarum)
+
+var somadois = somar(5, 7)
+console.log(somadois)
+
+console.log(somar(4,6))
