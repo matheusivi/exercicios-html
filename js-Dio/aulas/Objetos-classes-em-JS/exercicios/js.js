@@ -78,27 +78,27 @@ class Pessoa{
     constructor(nome, peso, altura){
         this.nome = nome;
         this.peso = peso;
-        this.altura = altura;
+        this.altura = altura; 
     }
     Imc(){
-            return this.peso / (this.altura * this.altura) 
-        }
-    
-    informacao(){
-        const informacao = this.Imc()
-        if (informacao < 18.5){
-            return ('Abaixo do peso')
-        }else if ( informacao >= 18.5 && informacao <25 ){
-            return ('Peso normal')
-        }else if(informacao >= 25 && informacao < 30){
-            return ('Acima do peso')
-        }else if(informacao >= 30 && informacao < 40){
-            return ('Obeso')
-        }else {
-            return ('Obesidade Grave')
-        }
+        return this.peso / ( this.altura * this.altura)
+    }
+
+    Calculo(){
+    const calcular = this.Imc();
+    if (calcular < 18.5){
+        return console.log('Abaixo do peso')
+    }else if(calcular >= 18.5 && calcular < 25){
+        return console.log('Peso normal')
+    }else if (calcular >= 25 && calcular < 30){
+        return console.log('Acima do peso')
+    }else if(calcular >= 30 && calcular < 40){
+        return console.log('Obeso')
+    }else{
+        return console.log('Obesidade Grave')
+    }
     }
 }
 
-const matheus = new Pessoa ('matheus', 103 , 1.87)
-console.log(matheus.informacao())
+const matheus = new Pessoa ('matheus', 104, 1.87)
+console.log(matheus.Calculo())
