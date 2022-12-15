@@ -1,2 +1,8 @@
+const {gets, print} = require('./js').default.
 
- const funcoes = require('./js')
+print(gets());
+print(gets());
+print(gets());
+print(gets());
+print(gets());
+ 
