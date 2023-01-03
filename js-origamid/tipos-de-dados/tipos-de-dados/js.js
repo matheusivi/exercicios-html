@@ -37,7 +37,7 @@ var idade = 29;
 
 var nome = 'Matheus';
 var sobrenome = ' Oliveira';
-var nomeCompleto = nome + sobrenome;
+var nomeCompleto = nome + sobrenome; // ou `${nome} ${sobrenome}`
 console.log(nomeCompleto);
 
 var frase1 = "It's time";
