@@ -71,7 +71,7 @@ function faltaVisitar(paisesVisitados){
     return `Falta visitar ${totalPaises - paisesVisitados}`
 }
 console.log(faltaVisitar(20));
-*/
+
 var profissao = 'Farmáceutico';
 
 function dados(){
@@ -86,3 +86,63 @@ function dados(){
 }
 
 console.log(dados())
+*/
+
+function maiorPopulação(){
+    var brasil = 250
+    var china = 1350
+
+    if (china > brasil ){
+        return 'Verdadeiro'
+    }else {
+        return 'falso'
+    }
+}
+console.log(maiorPopulação())
+
+
+function isTruthy(dados){
+    return !!dados;
+}
+
+
+function quadrado(lado){
+    var soma = lado * 4
+    return soma
+}
+
+console.log(quadrado(8));
+
+function nomeCompleto(nome, sobrenome){
+    var nomeInteiro = `Meu nome é ${nome} ${sobrenome} ` 
+
+    return nomeInteiro
+}
+console.log(nomeCompleto('Matheus', 'William'))
+
+
+function par(numero){
+    if(numero % 2 == 0 ){
+        return 'Par'
+    }else {
+        return 'Impar'
+    }
+}
+
+console.log(par(2))
+
+function tipo(valor){
+   return (typeof valor);
+
+}
+
+console.log(tipo(23));
+
+
+function Callback(){
+    console.log('Matheus William de Oliveira')
+}
+
+addEventListener('scroll', function(){
+    console.log('Matheus William de Oliveira')
+})
