@@ -22,7 +22,7 @@ var frutas = ['banana', 'pera', 'maçã', 'uva', 'melancia'];
 frutas.forEach(function(fruta, index){
         console.log(fruta, index);
 });
-*/
+
 
 var copa = [1959, 1962, 1970, 1994, 2002 ];
 
@@ -39,3 +39,18 @@ for (var i = 0; i < frutas.length; i++){
         break;
     }
 }
+*/
+
+var videoGames = ['Switch', 'PS4', 'XBOX', '3DS'];
+
+for(var item = 0; item < videoGame.length; item++){
+    console.log(videoGame[item]);
+    if(videoGame[item] === 'XBOX'){
+        break;
+    }
+}
+
+var frutas = ['banana', 'maçã', 'uva', 'abacaxi', 'pera'];
+frutas.forEach(function(fruta, index){
+    console.log(fruta, index);
+})
