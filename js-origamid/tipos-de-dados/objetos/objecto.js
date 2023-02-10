@@ -33,3 +33,25 @@ menu.esconder = function(){
 }
 
 var bg = menu.backgroundColor;
+
+//Tudo é um Objeto.
+
+var nome = 'Matheus'
+
+nome.length; 
+nome.charAt(3);
+
+nome.toLowerCase;
+
+var valor = 1.8
+
+valor.toFixed()
+valor.toString()
+
+
+var btn = document.querySelector('.btn')
+
+var nomei1 = 'matheus'
+nomei1.toLocaleLowerCase;
+nomei1.toLocaleUpperCase;
+nomei1.toUpperCase;
