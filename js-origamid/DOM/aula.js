@@ -82,7 +82,7 @@ imgs.forEach(function(item, index, array){
     tituloArray.forEach(function(item, index, array){
         console.log(item, index, array)
     })
-    */
+
     const titulos = document.getElementsByClassName('titulo');
     const tituloArray = Array.from(titulos);
 
@@ -90,7 +90,7 @@ tituloArray.forEach((item, index) => {
         console.log(item, index)
 });
 
-/*
+
     let i = 0
     imgs.forEach(function(){
         console.log(i++)
@@ -100,3 +100,6 @@ tituloArray.forEach((item, index) => {
         imgs.forEach(() => console.log(i++)
     })
 */
+
+const paragrafos = document.querySelectorAll('p');
+console.log(paragrafos[paragrafos.length - 1])
