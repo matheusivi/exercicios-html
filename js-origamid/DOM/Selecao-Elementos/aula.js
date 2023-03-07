@@ -8,7 +8,7 @@ console.log(gridSection[2]);
 
 const primeiraLi = document.querySelector('li');
 console.log(primeiraLi);
-
+ 
 const primeiraUl = document.querySelector('ul');
 console.log(primeiraUl);
 
@@ -40,17 +40,18 @@ arrayGrid.forEach(function(item){
 })
 */
 
-const todasImg = document.querySelectorAll('img');
-console.log(todasImg);
+const todasImg = document.querySelectorAll('[src^="img/"]')
+console.log(todasImg); 
 
-const apenasImg = document.querySelectorAll('img[src^="img/imagem"]');
-console.log(apenasImg);
+const imgApenas = document.querySelectorAll('[src^="img/imagem"]');
+console.log(imgApenas);
 
-const linhasInternar = document.querySelectorAll('[href^="#"]');
-console.log(linhasInternar);
+const apenasLinksInternos = document.querySelectorAll('[href^="#"]');
+console.log(apenasLinksInternos);
 
-const primeiraH2 = document.querySelector('.animais-descricao h2');
-console.log(primeiraH2);
+const primeiroh2 = document.querySelector('.animais-descricao h2');
+console.log(primeiroh2);
 
-const ultimoP = document.querySelectorAll('p')
-console.log(ultimoP[ultimoP.length - 1])
+const todosP = document.querySelectorAll('p');
+console.log(todosP[todosP.length - 1])
+
