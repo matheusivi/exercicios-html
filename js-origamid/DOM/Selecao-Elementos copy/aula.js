@@ -30,7 +30,7 @@ imgs.forEach(() => console.log(i++));// Novo método
 
 const paragrafo = document.querySelectorAll('p');
 
-//paragrafo.forEach(() => {console.log(paragrafo)});
+//paragrafo.forEach((item) => {console.log(item)});
 
 //paragrafo.forEach((item) => {console.log(item.innerText)})
 
