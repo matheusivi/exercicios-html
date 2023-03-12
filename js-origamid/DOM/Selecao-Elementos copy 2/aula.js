@@ -20,4 +20,8 @@ console.log(menu.className)
 
 const animais = document.querySelector('.animais');
 
-console.log(animais.attributes.class)
+console.log(animais.attributes.class);
+
+
+const img = document.querySelector('img');
+console.log(img.getAttribute('alt'));
