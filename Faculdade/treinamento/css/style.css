@@ -77,9 +77,14 @@ img{
     color: #0000003e;
     align-self: center;
 }
-
-.eletrico{
+.vantagens-item{
+    background-color: white;
     display: grid;
-    
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
 }
 
+.vantagens-item p {
+    grid-column: 2;
+}
