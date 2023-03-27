@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.inicio{
+    position: relative;
+    height: 100px;
+    background-color: rgb(243, 244, 245);
+}
+
+.logo{
+    width: 80px;
+}
+
+
+.face{
+    width: 20px;
+    position: absolute;
+    left: 800px;
+    bottom: 65px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.youtube{
+    width: 28px;
+    position: absolute;
+    left: 819px;
+    bottom: 60px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.twitter{
+    width: 20px;
+    position: absolute;
+    left: 845px;
+    bottom: 65px;
+    display: inline-block;
+}
+
+.instagram{
+    width: 19px;
+    position: absolute;
+    left: 868px;
+    bottom: 65px;
+    display: inline-block;
+}
+
+.inicio h1{
+    display:inline-block;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;    
+}
+
+.inicio span{
+    font-size: 16px;
+}
