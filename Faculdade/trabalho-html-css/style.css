@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+input{
+    border-radius: 50px;
+    height: 40px;
+    width: 340px;
+}
+
+.navegacao{
+    padding: 20px 0px 0px 80px;
+    background-color: #4f235c;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.carrinho{
+    position: relative;
+    left: 80px;
+    bottom: 45px;
+}
+
+.lupa{
+    position: relative;
+    width: 43px;
+    bottom: 33px;
+    right: 26px;
+    background-color: rgb(98, 180, 230);
+    border-radius: 50px;
+
+}
+
+.subindo{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: white;
+}
+
+.lista{
+    list-style: none;
+}
+
+.cao{
+    position: absolute;
+    left: 260px;
+    top: 90px;
+    color: white;
+}
+
+.gato{
+    position: absolute;
+    left: 378px;
+    top: 90px;
+    color: white;
+}
+
+.outros{
+    position: absolute;
+    left: 490px;
+    top: 90px;
+    color: white;
+}
+
+.farmacia{
+    position: absolute;
+    left: 620px;
+    top: 90px;
+    color: white;
+}
+
+.servicos{
+    position: absolute;
+    left: 740px;
+    top: 90px;
+    color: white;
+}
+
+.outlet{
+    position: absolute;
+    left: 840px;
+    top: 90px;
+    color: white;
+}
+
+/* Aqui começa imagem do carrosel*/
+
+.carrosel-geral{
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.carrosel-geral strong{
+    display: block;
+    color: red;
+}
+
+.carrosel{
+    max-width: 100%;
+}
+.caminhao{
+    position: relative;
+    top: 10px;    
+}
+
+.explicacao-caminhão{
+    position: absolute;
+    left: 140px;
+}
+
+.explicacao-cartao{
+    position: absolute;
+    left: 420px;
+}
+
+.explicacao-desconto{
+    position: absolute;
+    left: 670px;
+}
+
+.loja{
+    width: 40px;
+}
+
+.explicacao-loja{
+    position: absolute;
+    left: 999px;
+}
+
+p{
+    position: relative;
+    left: 50px;
+    bottom:30px;
+}
