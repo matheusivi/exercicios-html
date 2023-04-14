@@ -110,29 +110,488 @@ input{
 .explicacao-caminhão{
     position: absolute;
     left: 140px;
+    top: 340px;
 }
 
+.cartao{
+    position: relative;
+    top: 10px;
+}
 .explicacao-cartao{
     position: absolute;
     left: 420px;
 }
 
+.desconto{
+    position: relative;
+    top: 10px;
+}
+
 .explicacao-desconto{
     position: absolute;
     left: 670px;
+    width: 200px;
 }
 
 .loja{
+    position: relative;
     width: 40px;
+    top: 10px;
 }
 
 .explicacao-loja{
     position: absolute;
-    left: 999px;
+    left: 960px;
+    top: 330px;
 }
 
 p{
     position: relative;
     left: 50px;
     bottom:30px;
+}
+
+/* aqui é o MAIN*/
+
+.compras{
+    margin-bottom: 240px;
+    position: relative;
+}
+
+.compras h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #4f235c;
+    font-weight: bold;
+}
+
+.medicamentos img{
+    width: 200px;
+    position: absolute;
+    left: 40px;
+}
+
+.casinhas img{
+    width: 200px;
+    position: absolute;
+    left: 250px;
+}
+
+.racoes-gatos img{
+    width: 200px;
+    position: absolute;
+    left: 450px;
+}
+
+.racoes-cachorro img{
+    width: 200px;
+    position: absolute;
+    left: 650px;
+}
+
+.acessorios img{
+    width: 200px;
+    position: absolute;
+    left: 850px;
+}
+
+.Banho-Higiene img{
+    width: 200px;
+    position: absolute;
+    left: 1020px;
+}
+
+.tratamento{
+    margin-bottom: 40px;
+    position: relative;
+    color: #4f235c;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tratamento strong{
+    color: black;
+}
+
+.tratamento h2{
+    text-align: center;
+}
+
+.bravecto-1 {
+    width: 200px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.bravecto-1 p{
+    margin-top: 40px;
+}
+
+.bravecto-2{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    width: 200px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.bravecto-2 p{
+    margin-top: 40px;
+}
+
+.bravecto-3{
+    position: absolute;
+    left: 450px;
+    top: 30px;
+    width: 200px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.bravecto-3 p{
+    margin-top: 40px;
+}
+
+.bravecto-4{
+    position: absolute;
+    left: 650px;
+    top: 30px;
+    width: 200px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.bravecto-4 p{
+    margin-top: 40px;
+}
+
+.bravecto-5{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+    width: 200px;
+    color: #5d5d5d;
+    font-family: sans-serif;
+}
+
+.bravecto-5 p{
+    margin-top: 40px;
+}
+
+.animais{
+    position: relative;
+    margin-bottom: 350px;
+}
+
+.animais img{
+    width: 250px;
+}
+
+.cachorro img{
+    width: 200px;
+}
+
+.cachorro{
+position: absolute;
+left: 30px;
+top: 30px;
+}
+
+.cachorro p{
+    position: relative;
+    left: 70px;
+    top: 10px;
+    color: #4f235c;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.gatos{
+    position: absolute;
+    left: 290px;
+    top: 50px;
+}
+
+.gatos img{
+    width: 200px;
+}
+
+.gatos p{
+    position: relative;
+    left: 70px;
+    top: 25px;
+    color: #4f235c;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.aves{
+    position: absolute;
+    left: 490px;
+    top: 60px;
+}
+
+.aves p {
+    position: absolute;
+    left: 150px;
+    top: 175px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4f235c;
+}
+
+.roedores{
+    position: absolute;
+    left: 800px;
+    top: 60px;
+}
+
+.roedores p {
+    position: absolute;
+    left: 100px;
+    top: 175px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4f235c;
+}
+
+.Torcida-Outpet{
+    position: relative;
+    font-family: sans-serif;
+    color: #4f235c;
+    font-weight: bold;
+    margin-bottom: 450px;
+}
+
+.Torcida-Outpet h2{
+    text-align: center;
+}
+
+.suplemento-pelo{
+    position: absolute;
+    left: 40px;
+    width: 200px;
+}
+
+.Torcida-Outpet strong{
+    color: #4f235c;
+}
+
+.suplemento-pelo p{
+    margin-top: 50px;
+    color: #5d5d5d;
+}
+
+.Vermifugo{
+    position: absolute;
+    left: 280px;
+    width: 200px;
+}
+
+.Vermifugo p{
+    margin-top: 40px;
+    color: #5d5d5d;
+}
+
+.adsorventes{
+    position: absolute;
+    left: 480px;
+    width: 200px;
+}
+
+.adsorventes p{
+    margin-top: 40px;
+    color: #5d5d5d;
+}
+
+.suplemento-hepvet{
+    position: absolute;
+    left: 720px;
+    width: 200px;
+}
+
+.suplemento-hepvet p{
+    margin-top: 40px;
+    color: #5d5d5d;
+}
+
+.Eletrolítico{
+    position: absolute;
+    left: 940px;
+    width: 200px;
+}
+
+.Eletrolítico p{
+    margin-top: 40px;
+    color: #5d5d5d;
+}
+
+
+.marcas{
+    position: relative;
+    margin-bottom: 220px;
+}
+
+.marcas h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marcas img{
+    width: 150px;
+}
+
+.marcas p{
+  color: #4f235c;
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  top: 100px;
+  font-family: sans-serif;
+  left: 20px;
+}
+
+.Royasl-Canin{
+    position: absolute;
+    margin-left: 40px;
+}
+
+.golden{
+    position: absolute;
+    left: 200px;
+    top: 55px;
+}
+
+.golden p{
+    top: 95px;
+    left: 40px;
+}
+
+.Premier{
+    position: absolute;
+    left: 350px;
+    top: 55px;
+}
+
+.Premier p{
+    left: 40px;
+}
+
+.bravecto{
+    position: absolute;
+    left: 500px;
+    top: 55px;
+}
+
+.granplus{
+    position: absolute;
+    left: 600px;
+    top: 55px;
+}
+
+.granplus p{
+    left: 40px;
+}
+
+.special-dog{
+    position: absolute;
+    left: 740px;
+    top: 55px;
+}
+
+.special-cat{
+    position: absolute;
+    left: 890px;
+    top: 55px;
+}
+
+.whiskas{
+    position: absolute;
+    left: 1030px;
+    top: 55px;
+}   
+
+.whiskas p{
+    left: 40px;
+}
+
+.produtos{
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.produtos h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4f235c;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.produtos p{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 200px;
+    color: #5d5d5d;
+}
+
+.produtos strong{
+    color: #4f235c;
+}
+
+.antipulgas {
+    position: absolute;
+    left: 20px;
+}
+
+.racao-gatos{
+    position: absolute;
+    left: 200px;
+}
+
+.racao-filhotes{
+    position: absolute;
+    left: 420px;
+}
+
+.racao-umida{
+    position: absolute;
+    left: 650px;
+}
+
+.racao-optimun{
+    position: absolute;
+    left: 920px;
+}
+
+.informacoes-footer{
+    position: relative;
+}
+
+.informacoes-footer h2{
+    text-align: center;
+    color: #4f235c;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.informacoes-footer p{
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 18px;
+    width: 1000px;
+}
+
+.paragrafo-espaco{
+    margin-bottom: 20px;
+}
+
+.informacoes-footer span{
+    position: absolute;
+    left: 960px;
+    top: 190px;
+    color: #4f235c;
 }
