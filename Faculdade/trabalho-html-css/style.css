@@ -4,6 +4,10 @@
     text-decoration: none;
 }
 
+s{
+    text-decoration: line-through;
+}
+
 input{
     border-radius: 50px;
     height: 40px;
@@ -50,6 +54,11 @@ input{
     left: 260px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.cao:hover{
+    color: yellow;
 }
 
 .gato{
@@ -57,6 +66,11 @@ input{
     left: 378px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.gato:hover{
+    color: yellow;
 }
 
 .outros{
@@ -64,6 +78,11 @@ input{
     left: 490px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.outros:hover{
+    color: yellow;
 }
 
 .farmacia{
@@ -71,6 +90,11 @@ input{
     left: 620px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.farmacia:hover{
+    color: yellow;
 }
 
 .servicos{
@@ -78,6 +102,11 @@ input{
     left: 740px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.servicos:hover{
+    color: yellow;
 }
 
 .outlet{
@@ -85,6 +114,12 @@ input{
     left: 840px;
     top: 90px;
     color: white;
+    transition: .3s;
+}
+
+.outlet:hover{
+    color: yellow;
+
 }
 
 /* Aqui começa imagem do carrosel*/
@@ -297,6 +332,7 @@ p{
 position: absolute;
 left: 30px;
 top: 30px;
+transition: .3s;  
 }
 
 .cachorro p{
@@ -305,13 +341,19 @@ top: 30px;
     top: 10px;
     color: #4f235c;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold;  
 }
+
+.cachorro p:hover{
+    color: yellow;
+}
+
 
 .gatos{
     position: absolute;
     left: 290px;
     top: 50px;
+    transition: .3s;
 }
 
 .gatos img{
@@ -327,10 +369,15 @@ top: 30px;
     font-weight: bold;
 }
 
+.gatos p:hover{
+    color: yellow;
+}
+
 .aves{
     position: absolute;
     left: 490px;
     top: 60px;
+    transition: .3s;
 }
 
 .aves p {
@@ -342,10 +389,15 @@ top: 30px;
     color: #4f235c;
 }
 
+.aves p:hover{
+    color: yellow;
+}
+
 .roedores{
     position: absolute;
     left: 800px;
     top: 60px;
+    transition: .3s;  
 }
 
 .roedores p {
@@ -355,6 +407,10 @@ top: 30px;
     font-size: 28px;
     font-weight: bold;
     color: #4f235c;
+}
+
+.roedores p:hover{
+    color: yellow;
 }
 
 .Torcida-Outpet{
@@ -437,6 +493,7 @@ top: 30px;
 .marcas h2{
     text-align: center;
     margin-bottom: 20px;
+    color: #4f235c;
 }
 
 .marcas img{
