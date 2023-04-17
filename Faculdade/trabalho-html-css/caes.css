@@ -183,3 +183,192 @@ padding-left: 10px;
     color: black;
     font-family: sans-serif;
 }
+
+.primeira-coluna{
+    position: relative;
+    margin-bottom: 450px;
+}
+
+.coluna1-1{
+    position: absolute;
+    left: 400px;
+}
+
+.coluna1-1 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna1-2{
+    position: absolute;
+    left: 650px;
+}
+
+.coluna1-2 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna1-3{
+    position: absolute;
+    left: 950px;
+}
+
+.coluna1-3 p{
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.segunda-coluna{
+    position: relative;
+    margin-bottom: 850px;
+}
+
+.coluna2-1{
+    position: absolute;
+    left: 400px;
+}
+
+.coluna2-1 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna2-2{
+    position: absolute;
+    left: 650px;
+}
+
+.coluna2-2 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna2-3{
+    position: absolute;
+    left: 950px;
+}
+
+.coluna2-3 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.terceira-coluna{
+    position: relative;
+    margin-bottom: 1250px;
+}
+
+.coluna3-1{
+    position: absolute;
+    left: 400px;
+}
+
+.coluna3-1 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna3-2{
+    position: absolute;
+    left: 650px;
+}
+
+.coluna3-2 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna3-3{
+    position: absolute;
+    left:950px;
+}
+
+.coluna3-3 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.quarta-coluna{
+    position: relative;
+    margin-bottom: 1650px;
+}
+
+.coluna4-1{
+    position: absolute;
+    left: 400px;
+}
+
+.coluna4-1 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna4-2{
+    position: absolute;
+    left: 650px;
+}
+
+.coluna4-2 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna4-3{
+    position: absolute;
+    left:950px;
+}
+
+.coluna4-3 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.quinta-coluna{
+    position: relative;
+    margin-bottom: 2350px;
+}
+
+.coluna5-1{
+    position: absolute;
+    left: 400px;
+}
+
+.coluna5-1 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna5-2{
+    position: absolute;
+    left: 650px;
+}
+
+.coluna5-2 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coluna5-3{
+    position: absolute;
+    left:950px;
+}
+
+.coluna5-3 p{
+    width: 250px;
+    margin-bottom: 40px;
+    text-align: center;
+}
