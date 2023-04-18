@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+input{
+    border-radius: 50px;
+    height: 40px;
+    width: 340px;
+}
+
+.navegacao{
+    padding: 20px 0px 0px 80px;
+    background-color: #4f235c;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.carrinho{
+    position: relative;
+    left: 80px;
+    bottom: 45px;
+}
+
+.lupa{
+    position: relative;
+    width: 43px;
+    bottom: 33px;
+    right: 26px;
+    background-color: rgb(98, 180, 230);
+    border-radius: 50px;
+
+}
+
+.subindo{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: white;
+}
+
+.lista{
+    list-style: none;
+}
+
+
+.cao{
+    position: absolute;
+    left: 260px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.cao:hover{
+    color: yellow;
+}
+
+.gato{
+    position: absolute;
+    left: 378px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.gato:hover{
+    color: yellow;
+}
+
+.outros{
+    position: absolute;
+    left: 490px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.outros:hover{
+    color: yellow;
+}
+
+.farmacia{
+    position: absolute;
+    left: 620px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.farmacia:hover{
+    color: yellow;
+}
+
+.servicos{
+    position: absolute;
+    left: 740px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.servicos:hover{
+    color: yellow;
+}
+
+.outlet{
+    position: absolute;
+    left: 840px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.outlet:hover{
+    color: yellow;
+
+}
+
+.menu-inferior{
+position: relative;
+margin: 20px 0 20px 0;
+padding-left: 10px;
+}
+
+.paragrafo-home a{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.paragrafo-caes a{
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bold;
+    font: 14px;
+    position: absolute;
+    left: 67px;
+    top: 3px;
+}
+
+.carrosel-gatos img{
+    max-width: 100%;
+}
+
+.subtitulo{
+    position: relative;
+}
+
+.subtitulo h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: #4f235c;
+    margin-bottom: 60px;
+}
+
+.primeiro-paragrafo{
+    position: absolute;
+    left: 380px;
+    top: 80px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.segundo-paragrafo{
+    position: absolute;
+    left: 850px;
+    top:80px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.subtitulo a{
+    position: absolute;
+    left: 960px;
+    top:50px;
+    border: 1px solid grey;
+    display: inline;
+    padding: 20px 80px 20px 40px;
+    border-radius: 40px;
+    color: black;
+    font-family: sans-serif;
+    
+}
