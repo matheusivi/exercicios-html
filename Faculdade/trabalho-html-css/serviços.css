@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+input{
+    border-radius: 50px;
+    height: 40px;
+    width: 340px;
+}
+
+.navegacao{
+    padding: 20px 0px 0px 80px;
+    background-color: #4f235c;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.carrinho{
+    position: relative;
+    left: 80px;
+    bottom: 45px;
+}
+
+.lupa{
+    position: relative;
+    width: 43px;
+    bottom: 33px;
+    right: 26px;
+    background-color: rgb(98, 180, 230);
+    border-radius: 50px;
+
+}
+
+.subindo{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    color: white;
+}
+
+.lista{
+    list-style: none;
+}
+
+
+.cao{
+    position: absolute;
+    left: 260px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.cao:hover{
+    color: yellow;
+}
+
+.gato{
+    position: absolute;
+    left: 378px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.gato:hover{
+    color: yellow;
+}
+
+.outros{
+    position: absolute;
+    left: 490px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.outros:hover{
+    color: yellow;
+}
+
+.farmacia{
+    position: absolute;
+    left: 620px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.farmacia:hover{
+    color: yellow;
+}
+
+.servicos{
+    position: absolute;
+    left: 740px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.servicos:hover{
+    color: yellow;
+}
+
+.outlet{
+    position: absolute;
+    left: 840px;
+    top: 90px;
+    color: white;
+    transition: .3s;
+}
+
+.outlet:hover{
+    color: yellow;
+
+}
+
+.menu-inferior{
+    position: relative;
+    margin: 20px 0 20px 0;
+    padding-left: 10px;
+    }
+        
+.paragrafo{
+        color: rgb(179, 178, 178);
+        font-family: sans-serif;
+        font-weight: bold;
+        font: 14px;
+        position: absolute;
+        left: 67px;
+        top: 3px;
+    }
+    
+.carrosel-gatos img{
+        max-width: 100%;
+    }
+    
+.home{
+    position: relative;
+    left: 20px;
+   }
+
+.caixas{
+    margin-bottom: 200px;
+    display: relative;
+}
+
+.empresa{
+     position: relative;
+     left: 200px;
+     top: 100px;
+     border: 1px solid #4f235c;
+     display: inline-block;
+     padding: 80px 70px 80px 70px;
+     border-radius: 20px;
+     background-color: #4f235c;
+     margin-right: 10px;
+}
+
+.empresa p{
+    color: yellow;
+    font-family: sans-serif;
+}
+
+.empresa a{
+    color: white;
+    text-decoration: underline;
+}
+
+.trabalhe{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 60px 80px 60px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.trabalhe p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.trabalhe a{
+   color: white;
+   text-decoration: underline;
+}
+
+.consultorio{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 70px 80px 70px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.consultorio p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.consultorio a{
+   color: white;
+   text-decoration: underline;
+}
+
+.banho{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 70px 80px 70px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.banho p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.banho a{
+   color: white;
+   text-decoration: underline;
+}
+
+.espaco-cafe{
+    position: relative;
+    top: 320px;
+    right: 680px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 70px 80px 70px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.espaco-cafe p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.espaco-cafe a{
+   color: white;
+   text-decoration: underline;
+}
+
+.espaco-eventos{
+    position: relative;
+    top: 120px;
+    left: 550px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 70px 80px 70px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.espaco-eventos p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.espaco-eventos a{
+   color: white;
+   text-decoration: underline;
+}
+
+.farmacia-evento{
+    position: relative;
+    top: 120px;
+    left: 550px;
+    border: 1px solid #4f235c;
+    display: inline-block;
+    padding: 80px 70px 80px 70px;
+    border-radius: 20px;
+    background-color: #4f235c;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.farmacia-evento p{
+   color: yellow;
+   font-family: sans-serif;
+}
+
+.farmacia-evento a{
+   color: white;
+   text-decoration: underline;
+}
+
+.discricao-empresa h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4f235c;
+    font-family: sans-serif;
+}
+
+.discricao-empresa p{
+    padding-left: 40px;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 10px 0 10px 0;;
+}
+
+.discricao-empresa strong{
+    font-weight: bold;
+    text-decoration: underline blue;
+}
+
+.discricao-empresa h3{
+    margin-left: 40px;
+    text-decoration: underline blue;
+    color: rgb(102, 102, 102);
+}
+
+.animal{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 140px;
+}
+
+.largura{
+    width: 400px;
+}
+
+.sobre-outpet{
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.sobre-outpet1{
+    position: absolute;
+    top: 10px;
+}
+
+.sobre-outpet1 a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 180px;
+    left: 180px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+.colorido{
+    color: #4f235c;
+    font-weight: bold;
+}
+
+.sobre-outpet2{
+    position: absolute;
+    top: 10px;
+}
+
+.sobre-outpet2 a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 480px;
+    left: 480px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+.sobre-outpet3{
+    position: absolute;
+    top: 10px;
+}
+
+.sobre-outpet3 a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 780px;
+    left: 480px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+.redes-sociais{
+    position: relative;
+}
+
+.facebook{
+    width: 50px;
+    position: relative;
+    top: 300px;
+    left: 460px;
+}
+
+.instagran{
+    width:50px;
+    position: relative;
+    top: 298px;
+    left: 500px;
+}
+
+.youtube{
+    width: 40px;
+    position: relative;
+    top: 294px;
+    left: 540px;
+}
+
+.linkedin{
+    width: 35px;
+    position: relative;
+    top: 290px;
+    left: 590px;
+}
+
+.imagem-colada{
+    position: relative;
+}
+
+.imagem-colada img{
+    position: absolute;
+    max-width:100%;
+    margin-top: 400px;
+}
+
+.cadastre{
+    border: 1px solid black;
+    background: #4f235c;
+    position: relative;
+    height: 70px;
+}
+
+.cadastre input{
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+.cadastre-maior{
+    color: yellow;
+    position: absolute;
+    font-size: 28px;
+    width: 100px;
+    top: 10px;
+    text-align: center;
+}
+
+.cadastre-menor{
+    color: yellow;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 185px;
+    left: 150px;
+}
+
+.cadastre a{
+    position: absolute;
+    color: white;
+    background: rgb(87, 179, 210);
+    right: 180px;
+    top: 12px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
