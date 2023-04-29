@@ -36,128 +36,106 @@ ul {
     text-decoration: underline;
 }
 
-.content-imagem img{
-    max-width: 100%;
-    width: 2000px;
-}
-
-.content-atalhos h2{
-    display: block;
-    text-align: center;
-    font-size: 30px;
-}
-
-.content-atalhos{
-    height: 300px;
+main{
     position: relative;
+    height: 800px;
+    margin-top:20px ;
 }
 
-.relogio{
+.artigo1{
+ position: absolute;
+ left: 200px;
+ width: 300px;
+ font-family: sans-serif;
+ transition: .5s;
+ height: 360px;
+}
+
+.artigo1 img{
+    width: 300px;
+}
+
+.artigo1 h3{
+    margin: 10px 0 10px 0;
+}
+
+.artigo1:hover{
+    color: #A66832;
+    border: 1px solid #A66832;
+    height: 380px;
+}
+
+.artigo2{
+    position: absolute;
+    left: 600px;
+    width: 300px;
+    font-family: sans-serif;
+    transition: .5s;
+    height: 360px;
+   }
+   
+   .artigo2 img{
+       width: 300px;
+   }
+   
+   .artigo2 h3{
+       margin: 10px 0 10px 0;
+   }
+   
+   .artigo2:hover{
+       color: #A66832;
+       border: 1px solid #A66832;
+       height: 380px;
+   }
+   
+.artigo3{
     position: absolute;
     left: 200px;
-    top: 60px;
+    top: 400px;
+    width: 300px;
+    font-family: sans-serif;
+    transition: .5s;
+    height: 360px;
+   }
+
+.artigo3 img{
+    width: 300px;
 }
 
-.relogio img{
-    width: 80px;
+.artigo3 h3{
+    margin: 10px 0 10px 0;
+}
+
+
+
+.artigo3:hover{
+    color: #A66832;
+    border: 1px solid #A66832;
+    height: 380px;
+}
+
+.artigo4{
     position: absolute;
-    left: 10px;
-    transition: .2s;
+    left: 600px;
+    top: 400px;
+    width: 300px;
+    font-family: sans-serif;
+    transition: .5s;
+    height: 360px;
+   }
+
+.artigo4 img{
+    width: 300px;
 }
 
-.relogio img:hover{
-    width: 90px;
+.artigo4 h3{
+    margin: 10px 0 10px 0;
 }
 
-.relogio p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 90px;
-}
-
-.computador{
-    position: absolute;
-    left: 360px;
-    bottom: 90px;
-}
-
-.computador img{
-    width: 120px;
-    transition: .2s;
-}
-
-.computador img:hover{
-    width: 140px;
-}
-
-.computador p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.livro{
-    position: absolute;
-    left: 520px;
-    bottom: 80px;
-}
-
-.livro img{
-    width: 120px;
-    transition: .2s;
-}
-
-.livro img:hover{
-    width: 140px;
-}
-
-.livro p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.pergunte{
-    position: absolute;
-    left: 690px;
-    bottom: 90px;
-}
-
-.pergunte img{
-    width: 120px;
-    transition: .2s;
-}
-
-.pergunte img:hover{
-    width: 140px;
-}
-
-.pergunte p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.historia{
-    position: absolute;
-    left: 860px;
-    bottom: 90px;
-}
-
-.historia img{
-    width: 120px;
-    transition: .2s;
-}
-
-.historia img:hover{
-    width: 140px;
-}
-
-.historia p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
+.artigo4:hover{
+    color: #A66832;
+    border: 1px solid #A66832;
+    height: 380px;
 }
 
 .endereco{

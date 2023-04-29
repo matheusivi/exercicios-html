@@ -36,128 +36,74 @@ ul {
     text-decoration: underline;
 }
 
-.content-imagem img{
-    max-width: 100%;
-    width: 2000px;
+main{
+    margin-bottom: 400px;
 }
 
-.content-atalhos h2{
-    display: block;
+.titulo{
     text-align: center;
-    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
 }
 
-.content-atalhos{
-    height: 300px;
-    position: relative;
-}
-
-.relogio{
+.identidade{
     position: absolute;
     left: 200px;
-    top: 60px;
 }
 
-.relogio img{
-    width: 80px;
-    position: absolute;
-    left: 10px;
-    transition: .2s;
+.identidade fieldset{
+    border: none;
+    font-family: sans-serif;
 }
 
-.relogio img:hover{
-    width: 90px;
+input{
+    border-radius: 4px;
 }
 
-.relogio p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 90px;
+input:focus{
+    background-color: #9e775077;
 }
 
-.computador{
-    position: absolute;
-    left: 360px;
-    bottom: 90px;
+.leitura{
+    position: relative;
+    right: 4px;
+    margin: 15px 0 15px 0;
 }
 
-.computador img{
-    width: 120px;
-    transition: .2s;
+.escolha{
+    margin-top: 20px;
+    font-family: sans-serif;
 }
 
-.computador img:hover{
-    width: 140px;
+.contos{
+    font-family: sans-serif;
+    margin-bottom: 10px;
 }
 
-.computador p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
+.contos textarea{
+    border-radius: 5px;
+    height: 130px;
 }
 
-.livro{
-    position: absolute;
-    left: 520px;
-    bottom: 80px;
+.contos textarea:focus{
+    background-color: #9e775077;
 }
 
-.livro img{
-    width: 120px;
-    transition: .2s;
+.botao{
+    position: relative;
+    left: 260px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #734124;
+    background-color: #D9A282;
+    font-family: sans-serif;
+    border-radius: 5px;
+    transition: .3s;
 }
 
-.livro img:hover{
-    width: 140px;
-}
-
-.livro p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.pergunte{
-    position: absolute;
-    left: 690px;
-    bottom: 90px;
-}
-
-.pergunte img{
-    width: 120px;
-    transition: .2s;
-}
-
-.pergunte img:hover{
-    width: 140px;
-}
-
-.pergunte p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.historia{
-    position: absolute;
-    left: 860px;
-    bottom: 90px;
-}
-
-.historia img{
-    width: 120px;
-    transition: .2s;
-}
-
-.historia img:hover{
-    width: 140px;
-}
-
-.historia p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
+.botao:hover{
+    color: white;
+    background-color: #A66832;
 }
 
 .endereco{

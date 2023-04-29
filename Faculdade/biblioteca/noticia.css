@@ -36,129 +36,86 @@ ul {
     text-decoration: underline;
 }
 
-.content-imagem img{
-    max-width: 100%;
-    width: 2000px;
-}
-
-.content-atalhos h2{
-    display: block;
-    text-align: center;
-    font-size: 30px;
-}
-
-.content-atalhos{
-    height: 300px;
+main{
     position: relative;
+    margin-bottom: 600px;
 }
 
-.relogio{
+article{
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+}
+
+.primeiro-article{
     position: absolute;
-    left: 200px;
-    top: 60px;
+    left: 300px;
+    color: black;
+    line-height: 1.4;
+    height: 100px;
+    transition: .5s;
 }
 
-.relogio img{
-    width: 80px;
+.primeiro-article:hover{
+   border: 1px solid #A66832;
+   border-radius: 5px;
+   color: #A66832;
+   height: 120px;
+}
+
+.segundo-article{
     position: absolute;
-    left: 10px;
-    transition: .2s;
+    left: 600px;
+    color: black;
+    line-height: 1.4;
+   transition: .5s;
 }
 
-.relogio img:hover{
-    width: 90px;
+.segundo-article:hover{
+    color: #A66832;
+    border: 1px solid #A66832;
+    border-radius: 5px;
+    color: #A66832;
+    height: 220px;
 }
 
-.relogio p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 90px;
-}
-
-.computador{
+.terceiro-article{
     position: absolute;
-    left: 360px;
-    bottom: 90px;
+    left: 600px;
+    top: 300px;
+    height: 160px;
+    color: black;
+    line-height: 1.4;
+    transition: .5s;
 }
 
-.computador img{
-    width: 120px;
-    transition: .2s;
+.terceiro-article:hover{
+    color: #A66832;
+    border: 1px solid #A66832;
+    border-radius: 5px;
+    color: #A66832;
+    height: 180px;
 }
 
-.computador img:hover{
-    width: 140px;
-}
-
-.computador p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.livro{
+.quarto-article{
     position: absolute;
-    left: 520px;
-    bottom: 80px;
+    left: 300px;
+    top: 300px;
+    height: 180px;
+    color: black;
+    line-height: 1.4;
+    transition: .5s;
 }
 
-.livro img{
-    width: 120px;
-    transition: .2s;
+.quarto-article:hover{
+    border: 1px solid #A66832;
+    border-radius: 5px;
+    color: #A66832;
+    height: 190px;
 }
 
-.livro img:hover{
-    width: 140px;
-}
 
-.livro p{
-    width: 100px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.pergunte{
-    position: absolute;
-    left: 690px;
-    bottom: 90px;
-}
-
-.pergunte img{
-    width: 120px;
-    transition: .2s;
-}
-
-.pergunte img:hover{
-    width: 140px;
-}
-
-.pergunte p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.historia{
-    position: absolute;
-    left: 860px;
-    bottom: 90px;
-}
-
-.historia img{
-    width: 120px;
-    transition: .2s;
-}
-
-.historia img:hover{
-    width: 140px;
-}
-
-.historia p{
-    width: 120px;
-    text-align: center;
-    font-size: 18px;
-}
 
 .endereco{
     position: relative;
