@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="conte-uma-historia.css">
-    <title>Conte uma história</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="suporte.css">
 </head>
 <body>
     <div class="content-superior">
@@ -22,45 +22,25 @@
             <li><a href="nossa-historia.html">Nossa História</a></li>
         </ul>
     </nav>
+
     <main>
-        <div class="titulo">
-            <h1>Conte o que você leu aqui!</h1>
-        </div>
-
-        <form class="identidade">
+        <form>
             <fieldset>
-                <div >
-                    <label for="nome">Nome</label>
-                    <input type="text" nome="nome" id="nome" required>
+                <div class="identidade">
+                    <label class="nome" for="nome">Nome</label>
+                    <input class="nome" type="text" name="nome" id="nome" required>
                 </div>
-
-                <div class="leitura">
-                    <label for="leitura">Leitura</label>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
+                <div>
+                    <label class="email" for="email">E-mail</label>
+                    <input class="email" type="email" name="email" id="email" required>
                 </div>
-
-                <div >
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
+            </fieldset>
+                <div class="relatorio">
+                    <label >Contate-nos</label>
+                    <textarea name="relatorio" id="relatorio" cols="60" rows="15"></textarea>
                 </div>
-            </fieldset>      
-
-            <div class="escolha">
-                <label for="leitura">O que você leu?</label>
-                <select id="leitura">
-                    <option selected disable value="">Escolha</option>
-                    <option value="">Artigo</option>
-                    <option value="">Livro</option>
-                </select>
-            </div>
-
-            <div class="contos">
-                <br>
-                <label> Compartilhe da sua experiencia.</label>
-                <textarea name="experiencia" id="experiencia" style="width: 26em"  rows="6"></textarea>
-            </div>
-                <a class="botao" href="/">Concluido</a>
         </form>
+        <a class="botao" href="/">Enviar</a>
     </main>
 
     <footer>
@@ -75,7 +55,7 @@
                 <p>+55 (67) 9 9921-3875</p>
             
             </div>
-            <div class="email">
+            <div class="email-footer">
                 <img src="imagens/index/envelope-at.svg" alt="">
                 <h3>Contate-nos</h3>
                 <p>suabiblioteca@hotmail.com</p>
@@ -91,5 +71,5 @@
             </div>
         </div>
     </footer>
-    </body>
+</body>
 </html>
