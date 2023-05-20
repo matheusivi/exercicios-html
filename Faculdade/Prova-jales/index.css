@@ -6,6 +6,16 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 
-.formulario{
+
+
+.email-input{
+    display: block;
     width: 400px;
+    margin-bottom: 10px;
+}
+
+.descricao-input{
+    display: block;
+    width: 400px;
+    height: 200px;
 }
