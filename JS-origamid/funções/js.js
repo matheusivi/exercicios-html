@@ -1,3 +1,4 @@
+/*
 function areaQuadrado(lado){
     return lado * lado
 }
@@ -69,9 +70,10 @@ function faltaVisitar(paisesVisitados){
 
 console.log(faltaVisitar(20))
 
- var profissao = 'Designer'
-
+ 
+var profissao = 'Designer'
  function dados(){
+    
     var nome = 'André';
     var idade = 28;
     function outrosDados(){
@@ -83,3 +85,57 @@ console.log(faltaVisitar(20))
  }
 
  console.log(dados());
+
+*/
+
+
+function valorVerdadeiro(idade){
+    if(idade>= 18){
+        return 'Verdadeiro'
+    }else{
+        return 'Falso'
+    }
+}
+valor = valorVerdadeiro(19)
+console.log(valor)
+
+function perimetro(lado){
+    soma = 4*lado
+    return soma
+}
+
+somaPerimetro = perimetro(16)
+console.log(somaPerimetro)
+
+function nomeCompleto(nome, sobrenome){
+    return `O nome completo é ${nome} de ${sobrenome}`
+}
+
+todoNome = nomeCompleto('Matheus', 'Oliveira')
+console.log(todoNome)
+
+function numeroPar(valor){
+    if(valor % 2 == 0 ){
+        return 'Este numero é Par'
+    }else{
+        return 'Este numero é ímpar'
+    }
+}
+
+par = numeroPar(2)
+console.log(par)
+
+function argumento(dados){
+    return dados
+}
+
+tipoDados = argumento('vez')
+console.log(typeof(tipoDados))
+
+
+addEventListener('click', function(nome){
+    console.log('Matheus William')
+})
+
+
+
