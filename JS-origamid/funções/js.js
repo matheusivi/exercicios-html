@@ -86,7 +86,7 @@ var profissao = 'Designer'
 
  console.log(dados());
 
-*/
+
 
 
 function valorVerdadeiro(idade){
@@ -133,9 +133,35 @@ tipoDados = argumento('vez')
 console.log(typeof(tipoDados))
 
 
-addEventListener('click', function(nome){
+addEventListener('click', function(){
     console.log('Matheus William')
 })
+*/
 
+function dobrarNumero(valor){
+    return valor**2
+}
 
+function verificarParImpar(numero){
+    if(numero % 2 == 0){
+        return 'Par'
+    }else{
+        return 'Impar'
+    }
+}
 
+function calcularAreaRetangulo(base, altura){
+    return area = base * altura
+}
+
+function calcularIdade(anoNascimento, anoAtual){
+    return anoAtual - anoNascimento
+}
+
+function converterTemperatura(celsius){
+    return f= (celsius * (9/5)) + 32
+}
+
+function gerarNumeroAleatório(){
+    return Math.floor(Math.random() * 100)
+}
