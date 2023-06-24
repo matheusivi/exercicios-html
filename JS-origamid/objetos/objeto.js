@@ -38,7 +38,7 @@ var quadrado ={
  
  console.log(quadrado.area(5))
  console.log(quadrado.perimetro(4))
-*/
+
 
 var dadosPessoais = {
     nome: 'Matheus William',
@@ -71,3 +71,15 @@ var cachorro = {
 }
 
 console.log(cachorro)
+*/
+
+var nome = 'Matheus'
+
+console.log(nome.charAt(2))
+console.log(nome.length)
+console.log(nome.toLocaleUpperCase())
+
+var testeDom = document.querySelector('.teste')
+document.open
+
+console.log(testeDom)
