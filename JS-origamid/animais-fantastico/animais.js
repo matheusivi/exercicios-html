@@ -24,7 +24,7 @@ const arrayGrid = Array.from(gridSectionHtml)
 arrayGrid.forEach(function(item){
     console.log(item)
 })
-*/
+
 
 
 const imgSite = document.querySelector('#animais')
@@ -42,3 +42,4 @@ console.log(selecionaH2)
 
 const ultimoP = document.querySelectorAll('p')
 console.log(ultimoP[ultimoP.length - 1 ])
+*/
