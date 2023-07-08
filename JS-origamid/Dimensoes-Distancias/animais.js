@@ -30,38 +30,41 @@ if(small){
 }
 */
 
-const primeiraImg = document.querySelector('img')
+const img = document.querySelector('img')
+const imgTop = img.offsetTop
+console.log(imgTop)
 
-const distancia = primeiraImg.offsetTop
-//console.log(distancia)
 
-function somarImgs(){
-const imgs = document.querySelectorAll('img')
-    let soma = 0;
-    imgs.forEach((imagem) => {
-    soma = soma + imagem.offsetWidth
-    
-})
-console.log(soma)
+function somarImg(){
+ let soma = 0;   
+ const imgs = document.querySelectorAll('img');
+ imgs.forEach((imagen) => {
+    soma += imagen.offsetWidth
+ })
+ console.log(soma)
 }
 
-window.onload = function(){
-    somarImgs()
-}
+ window.onload = function(){
+    somarImg()
+ }
 
 
+ const links = document.querySelectorAll('a');
+ 
+ links.forEach((link)=>{
+    const linkWidth = link.offsetWidth
+    const linkHeight = link.offsetHeight
+    if(linkWidth > 48 && linkHeight > 48){
+        console.log(link, 'Possui acessibilidade')
+    }else{
+        console.log(link, 'Não possui boa acessibilidade')
+    }
+ })
 
 
-const recomendado = window.matchMedia('(max-width: 48px)').matches
+ const browserSmall = window.matchMedia('(max-width: 720px)').matches
 
-if(recomendado){
-    console.log('Recomendado')
-}else{
-    console.log('Não é recomendado')
-}
-
-
-
-
-const browser = window.matchMedia('(max-width: 720px)').matches
-
+ if(browserSmall){
+    const menu = document.querySelector('.menu')
+    menu.classList.add('menu-mobile')
+ }
