@@ -1,11 +1,14 @@
+const imgs = document.querySelector('img');
+
+console.log(imgs.offsetTop);
+
 const todasImgs = document.querySelectorAll('img')
-console.log(todasImgs)
 
-const linksInter = document.querySelectorAll('[href^="#"]')
-console.log(linksInter)
+let soma = 0
+todasImgs.forEach((item) => {
+    soma += item.offsetWidth
+    console.log(soma)
+})
 
-const primeiroH2 = document.querySelector('.animais-descricao h2')
-console.log(primeiroH2)
+const links = document.querySelectorAll('a');
 
-const ultimoP = document.querySelectorAll('p')
-console.log(ultimoP[ultimoP.length - 1])

@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #f7f7f7;
+    font-family: arial;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.bikcraft{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    border-radius: 4px;
+}
+
+.navegacao a{
+    font: arial;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 30px 
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+
+.descricao{
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    text-align: right;
+    font: 20px;
+    padding: 40px;    
+}
+
+.comprar{
+    text-decoration: none;
+    background-color: #ff000f;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.vantagens{
+    justify-self: center;
+    align-self: center;
+    font-size: 64px;
+    color: #2d2b2b22;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 40px;
+}
+
+.explicacao{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.explicacao-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.explicacao p{
+    grid-column: 2;
+}
