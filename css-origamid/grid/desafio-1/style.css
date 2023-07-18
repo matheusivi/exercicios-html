@@ -25,19 +25,25 @@ body{
     border-radius: 4px;
 }
 
+
+
 .navegacao a{
     font: arial;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     background: #fff;
-    padding: 10px 30px 
+    padding: 0.625rem 1.875rem; 
+}
+
+.navegacao a:hover{
+    border: 1px red solid;
 }
 
 .principal{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 60px;
+    margin-top: 3.75rem;
     justify-content: center;
     max-width: 1000px;
 }
@@ -48,8 +54,19 @@ body{
     justify-items: end;
     align-items: center;
     text-align: right;
-    font: 20px;
+    font: 1.25rem;
     padding: 40px;    
+    position: relative;
+}
+
+.descricao::before{
+    content: "";
+    height: 5px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    right: -25px;
 }
 
 .comprar{
@@ -59,6 +76,11 @@ body{
     text-transform: uppercase;
     padding: 15px 20px;
     border-radius: 4px;
+    transition: .5s;
+}
+
+.comprar:hover{
+    background-color: #81020b;
 }
 
 img{
@@ -69,7 +91,7 @@ img{
 .vantagens{
     justify-self: center;
     align-self: center;
-    font-size: 64px;
+    font-size: 4rem;
     color: #2d2b2b22;
     text-transform: uppercase;
     text-align: right;
@@ -88,6 +110,43 @@ img{
     padding: 20px;
 }
 
+.explicacao-item:hover{
+    border-left: 5px #ff000f solid;
+}
+
+.explicacao-item:nth-child(odd){
+    background-color: #f7f7f7;
+}
+
 .explicacao p{
     grid-column: 2;
+}
+
+
+@media (max-width: 850px){
+    .principal{
+        grid-template-columns: 1fr;
+    }
+
+    .navegacao{
+        gap: 10px;
+    }
+
+    .descricao{
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .descricao p{
+        text-align: center;
+    }
+
+    .vantagens{
+        text-align: center;
+    }
+}
+
+.imagem img{ 
+    object-fit: cover;
+    height: 100%;
 }
