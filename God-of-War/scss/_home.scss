@@ -1,13 +1,13 @@
 .s-hero{
-    padding: 16.4rem;
+    padding-top: 16.4rem;
     padding-bottom: 10.3rem;
-    background-image: url('../assets/assets/bg-hero.jpg');
+    background-image: url(../img/assets/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 80rem;
     .container{
         display: flex;
-        align-items: flex-end;
+        align-items: end;
         justify-content: space-between;
     }
     .left{
@@ -27,12 +27,12 @@
         .value{
             display: flex;
             strong{
-                background-color: #fff;
                 padding: 1.8rem 3.6rem;
-                font-weight: 700;
+                background-color: #fff;
+                color: #000;
                 font-size: 2rem;
                 line-height: 2.2rem;
-                color: #000;
+                font-weight: 700;
             }
             a{
                 display: block;
@@ -41,7 +41,7 @@
                 font-weight: 700;
                 font-size: 2rem;
                 line-height: 2.2rem;
-                color: #fff;
+
             }
         }
     }
@@ -55,7 +55,7 @@
             font-weight: 700;
             font-size: 1.8rem;
             line-height: 2rem;
-            margin-bottom: 2.3rem;
+            margin-bottom: 2.6rem;
         }
         button{
             position: relative;
@@ -70,24 +70,25 @@
             }
             .play{
                 position: absolute;
-                bottom: 2.5rem;
+                bottom:2.5rem;
                 left: 3.2rem;
             }
-            .year{
-              display: flex;
-              align-items: center;
-              p {
-              color: #fff;
-              font-weight: 400;
-              font-size: 1.6rem;
-              line-height: 1.7rem;
-              max-width: 27.4rem;
-              margin-left: 1.5rem;
-              }  
+        }
+        .year-old{
+            display: flex;
+            align-items: center;
+            p{
+                color: #fff;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.7rem;
+                max-width: 27.4rem;
+                margin-left: 1.5rem;
             }
         }
     }
 }
+
 
 .s-info-geral{
     width: 100%;
@@ -96,7 +97,7 @@
     align-items: center;
     ul{
         display: flex;
-        align-items: flex-start;
+        align-items: start;
         justify-content: space-between;
         li{
             display: flex;
@@ -105,13 +106,12 @@
             span{
                 display: block;
                 text-align: center;
-                font-weight: 400;
                 font-size: 1.6rem;
                 line-height: 160%;
                 color: #bdc2cb;
                 margin-top: 1.2rem;
             }
-
         }
     }
 }
+
